@@ -241,47 +241,26 @@ export default function ForexLandingPage() {
           </div>
         </section>
 
-        <section id="waitlist" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-          <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-            <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-emerald-300/80">Waitlist</p>
-              <h2 className="mt-4 text-3xl font-semibold tracking-tight md:text-5xl">Get early access.</h2>
-              <p className="mt-5 max-w-xl text-base leading-8 text-white/65">
-                Use this section to capture demand before building the full platform. Connect it to Tally, Typeform, HubSpot, ConvertKit, or your own backend.
-              </p>
-            </div>
-<div className="rounded-[2rem] border border-white/10 bg-gradient-to-br from-white/8 to-white/4 p-6 md:p-8">
-  <iframe
-    src="YOUR-TALLY-LINK"
-    width="100%"
-    height="500"
-    className="rounded-2xl border border-white/10"
-  />
-</div>
-                <input className="rounded-2xl border border-white/10 bg-neutral-950/70 px-5 py-4 outline-none ring-0 placeholder:text-white/35" placeholder="Full name" />
-                <input className="rounded-2xl border border-white/10 bg-neutral-950/70 px-5 py-4 outline-none ring-0 placeholder:text-white/35" placeholder="Email address" />
-                <select className="rounded-2xl border border-white/10 bg-neutral-950/70 px-5 py-4 text-white/70 outline-none">
-                  <option>Do you currently use MT4?</option>
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-                <select className="rounded-2xl border border-white/10 bg-neutral-950/70 px-5 py-4 text-white/70 outline-none">
-                  <option>Main goal</option>
-                  <option>Passive trading</option>
-                  <option>Save time</option>
-                  <option>Diversify</option>
-                  <option>Learn from signals</option>
-                </select>
-                <button className="mt-2 rounded-2xl bg-white px-6 py-4 text-sm font-semibold text-neutral-950 transition hover:scale-[1.01]">
-                  Join the Waitlist
-                </button>
-                <p className="text-xs leading-6 text-white/45">
-                  After signup, redirect to a thank-you page that says: “You’re on the list. We’re onboarding early users soon.”
-                </p>
-              </form>
-            </div>
-          </div>
-        </section>
+      <section id="waitlist" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+  <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+    <div>
+      <p className="text-sm uppercase tracking-[0.3em] text-emerald-300/80">Waitlist</p>
+      <h2 className="mt-4 text-3xl font-semibold tracking-tight md:text-5xl">Get early access.</h2>
+      <p className="mt-5 max-w-xl text-base leading-8 text-white/65">
+        Join the waitlist and we will contact you when onboarding opens.
+      </p>
+    </div>
+
+    <div className="rounded-[2rem] border border-white/10 bg-gradient-to-br from-white/8 to-white/4 p-6 md:p-8">
+      <iframe
+        src="https://tally.so/r/ODY8dg"
+        width="100%"
+        height="500"
+        className="rounded-2xl border border-white/10"
+      />
+    </div>
+  </div>
+</section>
 
         <section id="faq" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="mb-12 max-w-2xl">
