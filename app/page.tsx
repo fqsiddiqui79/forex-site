@@ -251,7 +251,12 @@ export default function ForexLandingPage() {
               </p>
             </div>
             <div className="rounded-[2rem] border border-white/10 bg-gradient-to-br from-white/8 to-white/4 p-6 md:p-8">
-              <form className="grid gap-4">
+              <iframe 
+  src="https://tally.so/r/ODY8dg"
+  width="100%" 
+  height="500"
+  className="rounded-2xl border border-white/10"
+/>
                 <input className="rounded-2xl border border-white/10 bg-neutral-950/70 px-5 py-4 outline-none ring-0 placeholder:text-white/35" placeholder="Full name" />
                 <input className="rounded-2xl border border-white/10 bg-neutral-950/70 px-5 py-4 outline-none ring-0 placeholder:text-white/35" placeholder="Email address" />
                 <select className="rounded-2xl border border-white/10 bg-neutral-950/70 px-5 py-4 text-white/70 outline-none">
